@@ -1,0 +1,6 @@
+{
+  "name": "Nour-lv1",
+  "description": "تطبيق تنظيم حياة الطالب الذكي ومساعد نور السلوكي",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Include local user databases and preferences in cloud backup -->
+        <include domain="database" path="."/>
+        <include domain="sharedpref" path="."/>
+    </cloud-backup>
+    <device-transfer>
+        <!-- Include local user databases and preferences in device-to-device migration -->
+        <include domain="database" path="."/>
+        <include domain="sharedpref" path="."/>
+    </device-transfer>
+</data-extraction-rules>

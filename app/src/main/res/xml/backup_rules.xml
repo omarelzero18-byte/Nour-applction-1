@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Include local user databases (Room database and WAL files) -->
+    <include domain="database" path="."/>
+    <!-- Include local user preferences and settings -->
+    <include domain="sharedpref" path="."/>
+</full-backup-content>
